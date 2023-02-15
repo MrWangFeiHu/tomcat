@@ -20,7 +20,8 @@
      Documentation at /docs/config/server.html
  -->
 <Server port="8005" shutdown="SHUTDOWN">
-  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
+  <!--https://blog.csdn.net/weixin_30294295/article/details/96336815-->
+  <!--<Listener className="org.apache.catalina.startup.VersionLoggerListener" />-->
   <!-- Security listener. Documentation at /docs/config/listeners.html
   <Listener className="org.apache.catalina.security.SecurityListener" />
   -->

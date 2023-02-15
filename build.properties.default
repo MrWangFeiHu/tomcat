@@ -77,7 +77,9 @@ trydownload.httpusecaches=true
 # Please note this path must be absolute, not relative,
 # as it is referenced with different working directory
 # contexts by the various build scripts.
-base.path=${user.home}/tomcat-build-libs
+# ① 修改base.path
+# base.path=${user.home}/tomcat-build-libs
+base.path=${basedir}/tomcat-build-libs
 
 compile.debug=true
 
